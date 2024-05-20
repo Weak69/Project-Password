@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="Password-box">
+        <input type="text" class="input" placeholder="Password" disabled />
+        <i class="ui uil-copy copyicon"></i>
+      </div>
+
+      <div class="range-box">
+        <span class="title">Password Length:</span>
+        <input type="range" min="6" max="22" value="6" />
+        <span class="value">6</span>
+      </div>
+
+      <button id="btn" class="btn">Generate Password</button>
+    </div>
+  </body>
+</html>

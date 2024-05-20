@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #354e96c0;
+}
+.wrapper {
+  position: relative;
+  max-width: 780px;
+  width: 100%;
+  background: #c7c7c7;
+  padding: 30px 25px;
+  border-radius: 1rem;
+}
+.wrapper .Password-box {
+  position: relative;
+  height: 70px;
+}
+.Password-box input {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0 40px 0 20px;
+  border: 1px solid #999898;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Password-box .copyicon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  color: rgb(73, 73, 73);
+}
+.range-box {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.range-box input {
+  width: 40%;
+  margin: 16px 16px;
+  cursor: pointer;
+}
+.range-box .title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.range-box .value {
+  min-width: 30px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: #6a88ebb9;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #1d50f5b9;
+}
